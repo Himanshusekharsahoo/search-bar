@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper">
+            <h1 class="google-heading">
+                <span>I</span>
+                <span>n</span>
+                <span>f</span>
+                <span>o</span>
+                <span>Q</span>
+                <span>u</span>
+                <span>e</span>
+                <span>S</span>
+                <span>T</span>
+            </h1>
+        <label for="searchInput"></label>
+        <input type="text" id="searchInput" placeholder="Search on InfoQueST" onclick="handleInputClick()">
+        <button onclick="searchOnGoogle()">Search</button>
+        <footer>
+            <p>&copy; 2024 Himanshu, All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function handleInputClick() {
+            var inputElement = document.getElementById('searchInput');
+            inputElement.placeholder = '';
+        }
+
+        function searchOnGoogle() {
+            var searchQuery = document.getElementById('searchInput').value;
+            var searchURL = 'https://www.google.com/search?q=' + encodeURIComponent(searchQuery);
+            window.open(searchURL, '_self');
+        }
+    </script>
+</body>
+</html>
+<!-- A Himanshu Creation --> 
