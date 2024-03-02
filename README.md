@@ -19,9 +19,9 @@ You can check out the live demo [here](#) (replace with your actual demo link).
 
 Include screenshots or GIFs of your application to showcase its appearance and functionality.
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](https://github.com/Himanshusekharsahoo/search-bar/blob/main/Preview%20images/Image01.png)
 
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2](https://github.com/Himanshusekharsahoo/search-bar/blob/main/Preview%20images/Image02.png)
 
 ## Installation
 
